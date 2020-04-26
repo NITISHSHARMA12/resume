@@ -192,6 +192,7 @@ background:#EB4924;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: #fff;
 }
 
 .font-accident-two-extralight{ 
@@ -200,6 +201,7 @@ background:#EB4924;
     font-size: 46px;
     padding-top: 20px;
     padding-bottom: 20px;
+    color: #fff;
 }
 .personal-contact{
     list-style: none;
@@ -208,6 +210,7 @@ background:#EB4924;
 }
 .personal-contact li{
     text-align: center;
+    color: #fff;
 }
 .font-accident-two-light{  
     font-family: font-accident-two; 
