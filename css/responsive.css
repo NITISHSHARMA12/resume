@@ -41,12 +41,17 @@ body{
     min-height: 398px;
 }
 
+.first-container-bg{
+    background: #d9a928;
+    /* margin-bottom: -10px; */
+}
 /* social icon Css */
 
 .social-icons-ql{
     background: black;
     padding: 0px;
     display: flex;
+    margin:0px;
 }
 .social-icons-ql li{
  list-style: none;
@@ -131,6 +136,17 @@ background:#EB4924;
     .cd-headline{
         display: none;
     }
+    .progress-item{
+        display: none;
+    }
+    .shadow-home{
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+    }
+    .notice{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
     
 }
 @media screen and (orientation: landscape) {
@@ -204,6 +220,7 @@ background:#EB4924;
 /* card Right side */
 
 .notice {
+    background: #ffffffe3;
     padding: 16px;
     min-height: 86px;
     margin-bottom: 14px;
@@ -239,7 +256,7 @@ background:#EB4924;
 .ui-menu-color03 {background-color: #9b59b6 !important;}
 .ui-menu-color04 {background-color: #e67e22 !important;}
 .ui-menu-color05 {background-color: #e74c3c !important;}
-.ui-menu-color06 {background-color: #D9A817 !important;}
+.ui-menu-color06 {background-color: #787878 !important;}
 
 .menuitem {
     min-height: 97px;
@@ -282,7 +299,7 @@ background:#EB4924;
 
 /* Personal Information */
 .box {
-    margin: 0 0 13px 0;
+    margin: 0 0 5px 0;
     display: block;
     clear: both;
 }
@@ -324,7 +341,7 @@ background:#EB4924;
 }
 .experience-card-title{
     text-align: center; 
-    padding: 45px 0px 45px 0px;
+    padding: 45px 0px 45px 0px !important;
 }
 .experience-card-title h1{
     font-size: 22px; 
