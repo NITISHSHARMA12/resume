@@ -533,6 +533,7 @@ background:#EB4924;
     padding-left: 4px;
 }
 .copyright{
+    text-transform: capitalize;
     text-align: center;
     padding: 89px 0px 0px 0px;
     color: white;
