@@ -6,6 +6,9 @@ body{
     background-size: cover;
     background-color: #464646;
 }
+h1{
+    font-family: 'Bitter', serif;
+}
 
 .background1{
     background-color: chartreuse;
@@ -29,7 +32,12 @@ body{
 }
 
 
+/* fonts */
 
+@font-face {
+    font-family: bodyFont;
+    src: url(./../fonts/MontDemo-Heavy.otf);
+}
 
 /* css  */
 
@@ -48,7 +56,7 @@ body{
 /* social icon Css */
 
 .social-icons-ql{
-    background: black;
+    background: #ffffff;
     padding: 0px;
     display: flex;
     margin:0px;
@@ -101,7 +109,7 @@ background:#EB4924;
 
 @media only screen and (min-width: 768px) {
     .social-icons-ql li {
-        min-width: 72px;
+        min-width: 98px !important;
         margin:0px;
         padding: 30px;
         padding-left: 30px !important;
@@ -115,10 +123,10 @@ background:#EB4924;
 /* mobile */
 @media only screen and (max-width: 768px) {
     .social-icons-ql li {
-        min-width: 57px;
+        min-width: 90px !important;
         margin:0px;
         padding-left: 29px;
-    padding-right: 26px;
+        padding-right: 26px;
        
     }
     .font-accident-two-extralight{
@@ -151,7 +159,7 @@ background:#EB4924;
 }
 @media screen and (orientation: landscape) {
     .social-icons-ql li {
-        min-width: 57px;
+        min-width: 98px;
         margin:0px;
         padding-left: 52px;
         padding-right: 58px;
@@ -446,7 +454,7 @@ background:#EB4924;
 .footer-background-img{
     background: url(../img/social_bg.png) bottom;
     background-repeat: no-repeat;
-    background-color: #4c97f4ab;
+    background-color: #3498db;
     padding-top: 25px;
 }
 .footer-heading{
