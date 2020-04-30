@@ -35,7 +35,7 @@ h1{
 .faceBookstyle{
     border:none;
     overflow:hidden;
-    padding-left: 20px;
+    /* padding-left: 20px; */
      padding-top: 5px;
      color: #ffffff;
      width:100%;
@@ -567,11 +567,7 @@ background:#EB4924;
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
-  
-  em {
-    margin-left: 10px;
-    font-size: 1rem;
-  }
+  float: right;
 }
 .theme-switch {
   display: inline-block;
