@@ -123,7 +123,7 @@ background:#EB4924;
 
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) roid{
     .social-icons-ql li {
         min-width: 98px !important;
         margin:0px;
@@ -171,6 +171,7 @@ background:#EB4924;
         margin-left: 40px;
         margin-right: 40px;
     }
+   
     
 }
 @media screen and (orientation: landscape) {
