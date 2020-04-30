@@ -14,6 +14,7 @@
 
   <!-- headline clip -->
   <link href="css/progress.css" rel="stylesheet">
+  <link href="css/darkMode.css" rel="stylesheet">
 
   <!-- animation css -->
   <!-- <link href="css/animation.css" rel="stylesheet"> -->
@@ -21,8 +22,10 @@
 
   <link rel="stylesheet" href="plugin/animated-headline/css/style.css">
 
+
   <!-- Modernizr -->
   <script src="plugin/animated-headline/js/modernizr.js"></script>
+  <script src="js/darkMode.js"></script>
 
   <!-- Font-awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,11 +38,11 @@
   <script async defer crossorigin="anonymous"
     src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0&appId=1737532859858251&autoLogAppEvents=1"></script>
 
-  <div class="container padding-zero first-container-bg">
+  <div class="container padding-zero first-container-bg" id="darkmode">
     <!-- <h1 style="background-color: aqua;">container</h1> -->
     <div class="col-md-4 col-sm-12 col-xs-12 padding-zero">
 
-      <div class="photo-01">
+      <div id="photo-01">
       </div>
       <div>
         <ul class="social-icons-ql">
@@ -57,11 +60,26 @@
 
     <div class="col-md-8 col-sm-12 col-xs-12 padding-zero">
 
-      <div class="conatiner padding-zero" style="padding: 9px;">
-        <iframe
-          src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fnitish-sharma.in%2F&width=450&layout=standard&action=like&size=small&share=true&height=35&appId=1737532859858251"
-          class="faceBookstyle" allow="encrypted-media">
-        </iframe>
+      <div class="conatiner padding-zero" style="padding: 17px;">
+        <div class="col-md-9 col-sm-9 col-xs-9 padding-zero">
+          <iframe
+            src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fnitish-sharma.in%2F&width=450&layout=standard&action=like&size=small&share=true&height=35&appId=1737532859858251"
+            class="faceBookstyle" allow="encrypted-media">
+          </iframe>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-3 padding-zero">
+          <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+              <input type="checkbox" id="checkbox" onclick="myFunction()" />
+              <div class="slider round"></div>
+            </label>
+            <!-- <em en>Dark Mode</em> -->
+            <label class="custom-control-label" for="darkSwitch" style="padding-left:10px">Dark Mode</label>
+            <p id="demo"></p>
+          </div>
+        </div>
+
+
 
       </div>
 
@@ -156,33 +174,37 @@
           <ul class="padding-zero ui-menu-color06" style="list-style: none;">
             <li class="col-md-2 col-sm-4 col-xs-4  padding-zero menuitem ui-menu-color01">
               <a href="index.html" class="hvr-sweep-to-bottom">
-                <img src="https://img.icons8.com/wired/26/000000/home.png" alt="Home" /><span>Home</span></a>
+                <i class="fa fa-home fontSize26" aria-hidden="true"></i>
+                <span>Home</span></a>
             </li>
 
             <li class="col-md-2 col-sm-4 col-xs-4 padding-zero menuitem ui-menu-color02">
               <a href="index.html" class="hvr-sweep-to-bottom">
-                <img src="https://img.icons8.com/wired/26/000000/student-male.png"
-                  alt="Resume" /><span>Resume</span></a>
+                <i class="fa fa-graduation-cap fontSize26 " aria-hidden="true"></i>
+                <span>Resume</span></a>
             </li>
 
             <li class="col-md-2 col-sm-4 col-xs-4 padding-zero menuitem ui-menu-color03">
               <a href="index.html" class="hvr-sweep-to-bottom">
-                <img src="https://img.icons8.com/wired/26/000000/briefcase.png" alt="Project" /><span>Project</span></a>
+                <i class="fa fa-briefcase fontSize26" aria-hidden="true"></i>
+                <span>Project</span></a>
             </li>
 
             <li class="col-md-2 col-sm-4 col-xs-4 padding-zero menuitem ui-menu-color04">
               <a href="index.html" class="hvr-sweep-to-bottom">
-                <img src="https://img.icons8.com/wired/26/000000/block-microphone.png"
-                  alt="Comming" /><span>Comming..</span></a>
+                <i class="fa fa-terminal fontSize26" aria-hidden="true"></i>
+                <span>Comming..</span></a>
             </li>
 
             <li class="col-md-2 col-sm-4 col-xs-4 padding-zero menuitem ui-menu-color05">
               <a href="index.html" class="hvr-sweep-to-bottom">
-                <img src="https://img.icons8.com/wired/26/000000/gallery.png" alt="Gallery" /><span>Gallery</span></a>
+                <i class="fa fa-camera-retro fontSize26" aria-hidden="true"></i>
+                <span>Gallery</span></a>
             </li>
             <li class="col-md-2 col-sm-4 col-xs-4 padding-zero menuitem ui-menu-color06">
               <a href="index.html" class="hvr-sweep-to-bottom">
-                <img src="https://img.icons8.com/wired/26/000000/marker.png" alt="Contact" /><span>Contact</span></a>
+                <i class="fa fa-map-marker fontSize26" aria-hidden="true"></i>
+                <span>Contact</span></a>
             </li>
           </ul>
         </div>
@@ -193,7 +215,7 @@
   </div>
 
   <!-- personal Info -->
-  <div class="container padding-zero" style="background: #ffffff;">
+  <div class="container padding-zero background-white" id="darkmode">
     <div class="col-md-8 col-sm-12 col-xs-12 padding-zero ">
       <h1 class="fadeInLeft" style="padding-left: 24px; padding-top: 20px;">About ME</h1>
       <p style="font-family: Georgia, Bitstream Charter,serif; font-style: italic; font-size: 19px; font-weight:
@@ -207,7 +229,7 @@
 
     <div class=" col-md-4 col-sm-12 col-xs-12 padding-zero">
       <div>
-        <div style="padding-top: 7px; padding-bottom: 0px;">
+        <div style="padding-top: 7px; padding-bottom: 0px; padding-left: 17px;">
           <h1>Personal Information</h1>
         </div>
         <div style="padding: 20px;">
@@ -513,7 +535,6 @@
     </div>
 
   </div>
-
 
 
 
