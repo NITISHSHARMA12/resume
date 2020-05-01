@@ -67,7 +67,7 @@ h1{
 
 .first-container-bg{
     background: #b65995fa;
-    /* margin-bottom: -10px; */
+    border-top: 3px solid #3498db;
 }
 /* social icon Css */
 
