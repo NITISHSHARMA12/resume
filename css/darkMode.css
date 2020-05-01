@@ -6,3 +6,9 @@
     background: #000000 !important;
     color: #ffff !important;
 }
+
+.darkmodeText{
+    font-size: 20px;
+    padding-left: 10px;
+    color: #ffff;
+}
