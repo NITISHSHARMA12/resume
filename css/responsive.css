@@ -19,8 +19,9 @@ h1{
     background: #ffffff;
 
 }
-
-
+.employment_bg{
+    background: #3498db;
+}
 .padding-zero{
     padding: 0px;
 }
@@ -365,6 +366,7 @@ background:#EB4924;
 /*Experience*/
 .experience-card{
     background-color: #9b59b6;
+    padding-bottom: 20px;
 }
 .experience-card-title{
     text-align: center; 

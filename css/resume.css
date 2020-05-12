@@ -1,0 +1,10 @@
+body{
+    background: url(../img/images.jpeg) center;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+h1{
+    font-family: 'Bitter', serif;
+}
