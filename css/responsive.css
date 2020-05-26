@@ -121,7 +121,7 @@ background:#EB4924;
 
 .social-icons-ql li i{
   color:#fff;
-  font-size:20px;
+  font-size:36px;
 }
 
 
@@ -131,7 +131,7 @@ background:#EB4924;
     .social-icons-ql li {
         min-width: 98px !important;
         margin:0px;
-        padding: 30px;
+        padding: 23px;
         padding-left: 30px !important;
         padding-right: 30px !important;  
     }
