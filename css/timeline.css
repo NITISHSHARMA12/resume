@@ -310,7 +310,6 @@
 /*education-timeline*/
 
 
-/******************* Timeline Demo - 5 *****************/
 
 .main-education-timeline {
     overflow: hidden;
@@ -388,7 +387,8 @@
     margin: 50px 0;
     box-shadow: 0 10px 25px -10px rgba(72, 29, 99, .3);
     z-index: 1;
-    position: relative
+    position: relative;
+    border-radius: 11px;
 }
 
 .main-education-timeline .timeline-content:before {
