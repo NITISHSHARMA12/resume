@@ -8,8 +8,11 @@ body{
 }
 h1{
     font-family: 'Bitter', serif;
+    font-size: 35px !important;
 }
-
+.Divider{
+    padding-bottom: 75px;
+}
 .background1{
     background-color: chartreuse;
 
@@ -124,16 +127,16 @@ background:#EB4924;
 
 
 
-@media only screen and (min-width: 768px) roid{
+@media only screen and (min-width: 768px){
     .social-icons-ql li {
         min-width: 98px !important;
         margin:0px;
         padding: 30px;
         padding-left: 30px !important;
-        padding-right: 30px !important;
-         
-        
-       
+        padding-right: 30px !important;  
+    }
+    .card-title-small{
+        display: none;
     }
 }
 
@@ -172,6 +175,10 @@ background:#EB4924;
         margin-left: 40px;
         margin-right: 40px;
     }
+    .card-title{
+        display: none;
+    }
+    
    
     
 }
