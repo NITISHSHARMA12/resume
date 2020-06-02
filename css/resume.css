@@ -8,3 +8,8 @@ body{
 h1{
     font-family: 'Bitter', serif;
 }
+
+.project-desc{
+    padding-left: 6px;
+    list-style: none;
+}
