@@ -180,6 +180,13 @@ background:#EB4924;
         display: none;
     }
     
+    .experience-timeline .year {
+        left: 0px !important;
+    }
+    .experience-timeline .inner-content {
+
+        padding: 12px !important;
+    }
    
     
 }
