@@ -1,15 +1,72 @@
-body{
+body {
     background: url(../img/images.jpeg) center;
     /* background-repeat: no-repeat; */
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
 }
-h1{
+
+h1 {
     font-family: 'Bitter', serif;
 }
 
-.project-desc{
-    padding-left: 6px;
-    list-style: none;
+.postion-style {
+    font-size: large;
 }
+
+.position-description {
+    font-size: medium;
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+    /* height: 10px; */
+    background: #333;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible;
+}
+
+.progress>.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 800;
+    padding: 3px 30px 2px 10px;
+    color: rgb(255, 255, 255);
+    /* background-color: rgba(25, 25, 25, 0.2); */
+}
+
+.progress>.progress-completed {
+    position: absolute;
+    color: white;
+    right: 0px;
+    font-weight: 800;
+    padding: 3px 10px 2px;
+}
+
+.progress .progress-bar {
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s;
+}
+
+.session {
+    float: right;
+    font-size: smaller;
+    font-style: italic;
+    font-weight: 400;
+    color: #777777;
+}
+
+@-webkit-keyframes animate-positive {
+    0% {
+        width: 0;
+    }
+}
+
+@keyframes animate-positive {
+    0% {
+        width: 0;
+    }
